@@ -1,0 +1,5 @@
+# Archivos de entorno y credenciales
+.env 
+.venv/ 
+__pycache__/
+*.pyc
