@@ -1,5 +1,30 @@
-# Archivos de entorno y credenciales
-.env 
-.venv/ 
+# Entorno y credenciales
+.env
+.env.local
+.env.*
+!.env.example
+
+# Entornos virtuales y dependencias locales
+.venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Tooling y cachés de tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Artefactos de build
+build/
+dist/
+*.egg-info/
+
+# Configuración local del editor
+.vscode/
+.idea/
+.DS_Store
